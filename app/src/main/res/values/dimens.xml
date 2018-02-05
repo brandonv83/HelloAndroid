@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top">12dp</dimen>
+    <dimen name="logo_img_width_port">260dp</dimen>
+    <dimen name="logo_img_width_land">320dp</dimen>
+    <dimen name="logo_img_padding_left">16dp</dimen>
+    <dimen name="text_address_port">16sp</dimen>
+    <dimen name="text_address_land">20sp</dimen>
+    <dimen name="text_address_padding_top">6dp</dimen>
+    <dimen name="text_address_padding_left">18dp</dimen>
+    <dimen name="text_drawable_padding">10dp</dimen>
+    <dimen name="slogan_text_port">18sp</dimen>
+    <dimen name="slogan_text_land">22sp</dimen>
+    <dimen name="slogan_text_padding_left">58dp</dimen>
+
+
+</resources>

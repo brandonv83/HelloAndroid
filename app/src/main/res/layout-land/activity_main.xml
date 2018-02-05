@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/background_landscape"
+    android:scaleType="centerCrop"
+    android:contentDescription="@string/background_desc"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin_top" >
+
+        <ImageView
+            style="@style/LogoImage_Land"
+            android:contentDescription="@string/logo_desc"
+            android:src="@drawable/logo_top"/>
+
+        <TextView
+            style="@style/AddressText_Land"
+            android:text="@string/address"
+            android:drawableLeft="@drawable/business_addr"
+            android:drawableStart="@drawable/business_addr"/>
+
+        <TextView
+            style="@style/AddressText_Land"
+            android:text="@string/phone"
+            android:drawableLeft="@drawable/call"
+            android:drawableStart="@drawable/call"/>
+
+        <TextView
+            style="@style/AddressText_Land"
+            android:text="@string/web"
+            android:drawableLeft="@drawable/mouse"
+            android:drawableStart="@drawable/mouse"/>
+
+        <TextView
+            style="@style/SloganText_Land"
+            android:text="@string/logo"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
